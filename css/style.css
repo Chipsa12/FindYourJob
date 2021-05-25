@@ -1,0 +1,48 @@
+body {
+    font-family: 'Fira Sans', sans-serif;
+    font-size: 16px;
+    color: #111238;
+    margin: 0;
+}
+
+/* отключение точек у списка list-style: none;
+отключение внутренних отступов padding:0;
+отключение внешних отступов margin:0;
+*/
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* отспум между элементами в 20px кроме последнего */
+.menu-item:not(:last-child) {
+    margin-right: 20px;
+}
+
+/* убирает подчеркивания text-decoration: none; */
+.menu-link {
+    color: #111238;
+    text-decoration: none;
+}
+
+.button {
+    text-decoration: none;
+    display: inline-block;
+}
+
+.button-link {
+    color: #111238;
+    padding: 10px;
+    margin-right: 40px;
+}
+
+.button-primary {
+    background: #1A75E8;
+    border-radius: 5px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+    color: #fff;
+}
